@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "sass": "^1.56.1"
+  },
+  "scripts": {
+    "dev": "yarn sass --watch sass/main.scss:theme.css"
+  }
+}
