@@ -1,0 +1,16 @@
+/* Separator (---). */
+.cm-line hr,
+.markdown-preview-view hr {
+  border: none;
+  border-bottom: .0625rem solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, transparent, var(--color-bossidian-primary), transparent);
+
+  &::after {
+    content: '§';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(60deg);
+    color: var(--color-bossidian-secondary);
+  }
+}
