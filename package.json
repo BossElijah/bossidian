@@ -1,8 +1,10 @@
 {
   "dependencies": {
+    "prettier": "^2.8.0",
     "sass": "^1.56.1"
   },
   "scripts": {
-    "dev": "yarn sass --watch sass/main.scss:theme.css"
+    "dev": "yarn sass --watch sass/main.scss:theme.css",
+    "format": "npx prettier --write ."
   }
 }
