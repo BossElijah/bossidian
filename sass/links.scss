@@ -1,0 +1,7 @@
+a {
+  color: var(--color-bossidian-primary);
+
+  &:hover {
+    color: var(--color-bossidian-secondary);
+  }
+}
