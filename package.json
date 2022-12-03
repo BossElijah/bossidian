@@ -1,10 +1,18 @@
 {
+  "license": "MIT",
+  "name": "bossidian-sass",
+  "description": "Sass compiling setup to support the Bossidian theme.",
+  "version": "1.0.0",
+  "author": "BossElijah",
   "dependencies": {
+    "concurrently": "^7.6.0",
+    "onchange": "^7.1.0",
     "prettier": "^2.8.0",
     "sass": "^1.56.1"
   },
   "scripts": {
-    "dev": "yarn sass --watch sass/main.scss:theme.css",
-    "format": "npx prettier --write ."
+    "compile-sass": "yarn sass --watch sass/main.scss:theme.css",
+    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
+    "watch": "concurrently \"yarn compile-sass\" \"yarn prettier-watch\""
   }
 }
