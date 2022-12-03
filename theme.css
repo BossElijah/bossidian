@@ -26,6 +26,8 @@ body.theme-dark {
   --interactive-accent-hover: rgba(14, 210, 247, 0.8);
   --text-faint: #2e88b4;
   --text-accent: var(--color-bossidian-primary);
+  --text-accent-hover: var(--color-bossidian-secondary);
+  --link-color-hover: var(--color-bossidian-secondary);
   --link-external-color-hover: var(--color-bossidian-secondary);
   --background-primary: var(--color-bossidian-primary-background);
   --background-secondary: var(--color-bossidian-secondary-background);
@@ -46,6 +48,7 @@ body.theme-dark {
   --code-background: var(--background-secondary);
   --nav-item-color-hover: var(--color-bossidian-primary);
   --vault-name-color: var(--color-bossidian-primary);
+  --nav-item-color-highlighted: var(--color-bossidian-secondary);
 }
 
 /* Separator (---). */
