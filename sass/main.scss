@@ -5,3 +5,7 @@
 @import 'headings';
 @import 'links';
 @import 'tasks-plugin';
+
+.nav-folder.mod-root > .nav-folder-title {
+  text-transform: uppercase;
+}

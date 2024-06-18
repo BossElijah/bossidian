@@ -1,20 +1,6 @@
 body.theme-dark {
-  // TODO: See where they use them in obsidianite.
-  /* Obsidianite custom variables. */
-  --text-dim: #45aaff;
-  --text-link: #b4b4b4;
-  --text-a: #6bcafb;
-  --text-a-hover: #6bcafb;
-  --text-mark: #263d92;
-  --interactive-before: #5e6565;
-  --interactive-accent-rgb: #3dd7fb;
-  --bg-sub-accent-55: rgba(244, 86, 157, 0.55);
-  --bg-accent-55: rgba(14, 210, 247, 0.55);
-  --bg-accent-25: rgba(14, 210, 247, 0.25);
-
   // TODO: See which ones are necessary: Obsidian default overrides from obsidianite
   --text-highlight-bg: rgba(244, 86, 157, 0.25);
-  // --background-primary-alt: #0d0b12;
 
   /* Custom variables. */
   --color-bossidian-primary: #2faae6;
@@ -27,8 +13,8 @@ body.theme-dark {
   --tag-background: rgba(14, 210, 247, 0.15);
   --text-normal: #bebebe;
   --background-secondary-alt: #0d0b12;
-  --interactive-accent: rgba(14, 210, 247, 0.5);
-  --interactive-accent-hover: rgba(14, 210, 247, 0.8);
+  --interactive-accent: rgba(14, 210, 247, 0.7);
+  --interactive-accent-hover: var(--color-bossidian-secondary);
   --text-faint: #2e88b4;
   --text-accent: var(--color-bossidian-primary);
   --text-accent-hover: var(--color-bossidian-secondary);
