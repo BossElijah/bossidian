@@ -1,6 +1,8 @@
 {
     "name": "Bossidian",
-    "version": "0.0.0",
+    "description": "Modern dark theme for Obsidian",
+    "version": "1.0.0",
     "minAppVersion": "0.16.0",
-    "author": "BossElijah"
+    "author": "BossElijah",
+    "authorUrl": "https://BossELijah.github.io"
 }

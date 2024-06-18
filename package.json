@@ -1,7 +1,7 @@
 {
   "license": "MIT",
-  "name": "bossidian-sass",
-  "description": "Sass compiling setup to support the Bossidian theme.",
+  "name": "bossidian",
+  "description": "Modern dark theme for Obsidian",
   "version": "1.0.0",
   "author": "BossElijah",
   "dependencies": {
@@ -11,8 +11,8 @@
     "sass": "^1.56.1"
   },
   "scripts": {
-    "compile-sass": "yarn sass --watch sass/main.scss:theme.css",
-    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
-    "watch": "concurrently \"yarn compile-sass\" \"yarn prettier-watch\""
+    "watch-sass": "yarn sass --watch sass/main.scss:theme.css",
+    "watch-prettier": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
+    "watch": "concurrently \"yarn watch-sass\" \"yarn watch-prettier\""
   }
 }
