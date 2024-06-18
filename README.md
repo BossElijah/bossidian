@@ -7,6 +7,10 @@ Modern dark theme for Obsidian.md!
 
 </div>
 
+![Theme preview 1](./images/image-1.png)
+
+![Theme preview 2](./images/image-2.png)
+
 ## Development process
 
 - Use the `watch` command defined in `package.json` to turn compile the styling
